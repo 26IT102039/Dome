@@ -1,4 +1,3 @@
-/* ---------- General Settings ---------- */
 * {
     margin: 0;
     padding: 0;
@@ -36,8 +35,7 @@ section {
     scroll-margin-top: 85px;
 }
 
-/* ---------- Navigation ---------- */
-
+/*Navigation*/
 header {
     background: #101b2d;
     border-bottom: 1px solid var(--border);
@@ -81,8 +79,7 @@ header {
     display: none;
 }
 
-/* ---------- Hero Section ---------- */
-
+/*Hero Section*/
 .hero {
     max-width: 1150px;
     min-height: 620px;
@@ -154,8 +151,7 @@ header {
     color: #07141b;
 }
 
-/* ---------- Profile Picture ---------- */
-
+/*Profile Picture*/
 .profile-area {
     text-align: center;
 }
@@ -183,8 +179,7 @@ header {
     font-size: 14px;
 }
 
-/* ---------- Common Section Design ---------- */
-
+/*Common Section Design*/
 .section {
     padding: 85px 25px;
     max-width: 1150px;
@@ -259,8 +254,7 @@ header {
     transform: translateY(-5px);
 }
 
-/* ---------- Skills ---------- */
-
+/*Skills*/
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -271,8 +265,7 @@ header {
     color: var(--primary);
 }
 
-/* ---------- Projects ---------- */
-
+/*Projects*/
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -305,8 +298,7 @@ header {
     padding: 5px 10px;
 }
 
-/* ---------- Education ---------- */
-
+/*Education*/
 .education-card {
     margin-bottom: 18px;
     border-left: 4px solid var(--primary);
@@ -336,8 +328,7 @@ header {
     font-size: 12px;
 }
 
-/* ---------- Footer ---------- */
-
+/*Footer*/
 footer {
     padding: 25px;
     border-top: 1px solid var(--border);
@@ -358,8 +349,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* ---------- Tablet Screens ---------- */
-
+/*Tablet Screens*/
 @media screen and (max-width: 850px) {
     .navbar {
         flex-wrap: wrap;
@@ -383,8 +373,7 @@ footer a:hover {
     }
 }
 
-/* ---------- Mobile Screens ---------- */
-
+/*Mobile Screens*/
 @media screen and (max-width: 650px) {
     .navbar {
         min-height: 65px;
@@ -463,8 +452,7 @@ footer a:hover {
     }
 }
 
-/* ---------- Very Small Screens ---------- */
-
+/*Very Small Screens*/
 @media screen and (max-width: 360px) {
     .logo {
         font-size: 21px;
